@@ -43,7 +43,7 @@ public final class Lawn {
 
     /**
      * Adds a lawnmower on the lawn. <br />
-     * The lawn must be added on a empty spot and on the lawn (not out of bounds).
+     * It must be added on an empty spot, and on the lawn (not out of bounds).
      * 
      * @param x
      *            x position
@@ -79,9 +79,9 @@ public final class Lawn {
 
     /**
      * Tests if the next position for a given lawnmower is valid on the current lawn. <br />
-     * A position is considered as valid if : <br />
+     * A position is considered valid if : <br />
      * - The position is on the lawn <br />
-     * - The position is not occupied by another lawnmower.
+     * - The position is not taken by another lawnmower.
      * 
      * @param lawnmower
      * @return

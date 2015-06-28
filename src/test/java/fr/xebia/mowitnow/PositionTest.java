@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 /**
- * @author Charles
+ * @author Charles Dufour
  *
  */
 public class PositionTest {

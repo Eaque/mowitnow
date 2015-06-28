@@ -6,6 +6,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * @author Charles Dufour
+ *
+ */
 public class LawnmowerTest {
 
     private Lawnmower lawnmower = null;
@@ -37,6 +41,9 @@ public class LawnmowerTest {
         new Lawnmower(null, Direction.E, null);
     }
 
+    /**
+     * Test method for {@link fr.xebia.mowitnow.Lawnmower#turnLeft()}.
+     */
     @Test
     public void testTurnLeft() {
         lawnmower.turnLeft();
@@ -49,6 +56,9 @@ public class LawnmowerTest {
         assertEquals(Direction.N, lawnmower.getDirection());
     }
 
+    /**
+     * Test method for {@link fr.xebia.mowitnow.Lawnmower#turnRight()}.
+     */
     @Test
     public void testTurnRight() {
         lawnmower.turnRight();
@@ -61,6 +71,9 @@ public class LawnmowerTest {
         assertEquals(Direction.N, lawnmower.getDirection());
     }
 
+    /**
+     * Test method for {@link fr.xebia.mowitnow.Lawnmower#getNextPosition()}.
+     */
     @Test
     public void testGetNextPosition() {
         assertEquals(1, lawnmower.getNextPosition().getX());
@@ -71,6 +84,9 @@ public class LawnmowerTest {
         assertEquals(1, lawnmower.getNextPosition().getY());
     }
 
+    /**
+     * Test method for {@link fr.xebia.mowitnow.Lawnmower#move()}.
+     */
     @Test
     public void testMove() {
         assertEquals(1, lawnmower.getX());

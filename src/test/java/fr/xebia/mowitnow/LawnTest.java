@@ -12,7 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Charles
+ * @author Charles Dufour
  *
  */
 public class LawnTest {

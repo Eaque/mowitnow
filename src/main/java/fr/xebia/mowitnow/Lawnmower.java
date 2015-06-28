@@ -37,7 +37,7 @@ public class Lawnmower {
 
         this.position = position;
         this.direction = direction;
-        this.commands = commands;
+        this.commands = commands == null ? "" : commands;
     }
 
     /**
@@ -96,14 +96,14 @@ public class Lawnmower {
     }
 
     /**
-     * Turn the lawnmower to the left.
+     * Turns the lawnmower to the left.
      */
     public void turnLeft() {
         this.direction = this.direction.getLeft();
     }
 
     /**
-     * Turn the lawnmower to the right.
+     * Turns the lawnmower to the right.
      */
     public void turnRight() {
         this.direction = this.direction.getRight();
@@ -130,8 +130,8 @@ public class Lawnmower {
     }
 
     /**
-     * Returns the "virtual" next position (after a move) based on the direction without changing the current position.
-     * No position control is performed.
+     * Returns the "virtual" next position (after a move) based on the direction, without changing the current position.
+     * No position validation is performed.
      * 
      * @return
      */
@@ -141,7 +141,7 @@ public class Lawnmower {
 
     /**
      * Move the lawnmower to the next position. <br />
-     * Does not perform any position control, this responsability belongs to the lawn.
+     * Does not perform any position validation, this responsibility belongs to the lawn.
      * 
      */
     public void move() {
