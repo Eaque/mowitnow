@@ -109,8 +109,9 @@ public class LawnTest {
     @Test
     public void testRun2() {
         lawn.addLawnmower(9, 10, "N", "AAADA");
+        lawn.addLawnmower(5, 5, "W", "AZERTYA");
         lawn.mow();
-        assertThat(lawn.toString(), CoreMatchers.startsWith("10 10 E"));
+        assertThat(lawn.toString(), CoreMatchers.startsWith("10 10 E\n3 5"));
     }
 
     /**
