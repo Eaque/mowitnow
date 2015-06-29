@@ -9,7 +9,7 @@ The file (or stream) contains data representing the size of the lawn, the positi
 #Build
 Run `mvn clean install`
 
-#Test
+##Test
 Run `mvn test`
 
 ##Usage
@@ -23,7 +23,8 @@ Run `mvn test`
 
 * All the lawnmowers are placed on the lawn at the same time (initial time). 
 * When a lawnmower meets another one, nothing happens when it tries to move, and then the lawnmower runs the next command. The same behavior applies when the lawnmowers gets out of bounds.
+* Available commands are 'A', 'G' and 'D'. Any other character than those ones are ignored.
 
 ##Todos
 
-* Internationalization
+* Internationalization.
