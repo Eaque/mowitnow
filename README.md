@@ -1,6 +1,8 @@
 # mowitnow, Xebia test project
 
-Built with jdk8 : [![Build Status](https://travis-ci.org/Eaque/mowitnow.svg?branch=master)](https://travis-ci.org/Eaque/mowitnow)
+##Code status
+* Built with jdk8 : [![Build Status](https://travis-ci.org/Eaque/mowitnow.svg?branch=master)](https://travis-ci.org/Eaque/mowitnow)
+* [![Coverage Status](https://coveralls.io/repos/Eaque/mowitnow/badge.svg)](https://coveralls.io/r/Eaque/mowitnow)
 
 ##Goal
 Write a program which, from a file (or a stream), simulates lawnmowers and their moves on a lawn.
