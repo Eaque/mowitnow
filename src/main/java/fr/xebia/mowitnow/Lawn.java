@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Charles Dufour
+ * Defines a lawn : <br>
+ * - Defines the size of the lawn and contains a list of lawnmowers. <br>
+ * - Also handles the validation of the lawnmowers moves.
  * 
- *         Defines a lawn : <br />
- *         - Defines the size of the lawn and contains a list of lawnmowers. <br />
- *         - Also handles the validation of the lawnmowers moves.
+ * @author Charles Dufour
  *
  */
 public final class Lawn {
@@ -42,7 +42,7 @@ public final class Lawn {
     }
 
     /**
-     * Adds a lawnmower on the lawn. <br />
+     * Adds a lawnmower on the lawn. <br>
      * It must be added on an empty spot, and on the lawn (not out of bounds).
      * 
      * @param x
@@ -78,9 +78,9 @@ public final class Lawn {
     }
 
     /**
-     * Tests if the next position for a given lawnmower is valid on the current lawn. <br />
-     * A position is considered valid if : <br />
-     * - The position is on the lawn <br />
+     * Tests if the next position for a given lawnmower is valid on the current lawn. <br>
+     * A position is considered valid if : <br>
+     * - The position is on the lawn <br>
      * - The position is not taken by another lawnmower.
      * 
      * @param lawnmower
@@ -108,11 +108,11 @@ public final class Lawn {
     }
 
     /**
-     * Runs a command for the given lawnmower. <br />
-     * The available commands are : <br />
-     * - 'A' : Move (only if the move is valid, otherwise do nothing) <br />
-     * - 'G' : Turn left <br />
-     * - 'D' : Turn right <br />
+     * Runs a command for the given lawnmower. <br>
+     * The available commands are : <br>
+     * - 'A' : Move (only if the move is valid, otherwise do nothing) <br>
+     * - 'G' : Turn left <br>
+     * - 'D' : Turn right <br>
      * If the given command doesn't exists, do nothing.
      * 
      * @param lawnmower

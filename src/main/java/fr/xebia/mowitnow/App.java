@@ -6,9 +6,9 @@ import java.io.FileNotFoundException;
 import fr.xebia.mowitnow.exception.FileContentException;
 
 /**
- * @author Charles Dufour
+ * Main class of mowitnow.
  * 
- *         Main class of mowitnow.
+ * @author Charles Dufour
  *
  */
 public class App {

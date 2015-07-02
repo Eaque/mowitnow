@@ -11,6 +11,9 @@ The file (or stream) contains data representing the size of the lawn, the positi
 #Build
 Run `mvn clean install`
 
+###Continuous integration
+You can use tools such as Jenkins to integrate and deploy continuously.
+
 ##Test
 Run `mvn test`
 
@@ -21,7 +24,7 @@ Run `mvn test`
 * As a jar library :
   * Use one of the method **createLawn** of the class **LawnCreator** : `LawnCreator.createLawn(file)`
 
-##Functional choices (disambiguation) :
+##Functional choices (disambiguation)
 
 * All the lawnmowers are placed on the lawn at the same time (initial time). 
 * When a lawnmower meets another one, nothing happens when it tries to move, and then the lawnmower runs the next command. The same behavior applies when the lawnmowers gets out of bounds.
@@ -29,4 +32,5 @@ Run `mvn test`
 
 ##Todos
 
-* Internationalization.
+* Internationalization (I18N).
+* Change, or use a second code coverage tool. Currently, coveralls does not support Java 8. JaCoCo for example, supports Java 8.

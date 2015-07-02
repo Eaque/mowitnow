@@ -4,12 +4,12 @@
 package fr.xebia.mowitnow;
 
 /**
- * @author Charles Dufour
+ * Defines a lawnmover : <br>
+ * - Its direction <br>
+ * - Its position <br>
+ * - The list of commands it has to run
  * 
- *         Defines a lawnmover : <br />
- *         - Its direction <br />
- *         - Its position <br />
- *         - The list of commands it has to run
+ * @author Charles Dufour
  *
  */
 public class Lawnmower {
@@ -140,7 +140,7 @@ public class Lawnmower {
     }
 
     /**
-     * Move the lawnmower to the next position. <br />
+     * Move the lawnmower to the next position. <br>
      * Does not perform any position validation, this responsibility belongs to the lawn.
      * 
      */

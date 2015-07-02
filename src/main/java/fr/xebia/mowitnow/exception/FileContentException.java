@@ -4,6 +4,11 @@
 package fr.xebia.mowitnow.exception;
 
 /**
+ * Exception representing an error in the input file content. For example :<br>
+ * - Missing dimension<br>
+ * - Negative position<br>
+ * - etc.
+ * 
  * @author Charles Dufour
  *
  */

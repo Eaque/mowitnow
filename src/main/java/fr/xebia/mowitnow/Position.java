@@ -4,9 +4,9 @@
 package fr.xebia.mowitnow;
 
 /**
+ * Defines a position on the lawn.
+ * 
  * @author Charles Dufour
- *
- *         Defines a position on the lawn.
  */
 public final class Position {
 

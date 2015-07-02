@@ -4,9 +4,9 @@
 package fr.xebia.mowitnow;
 
 /**
- * @author Charles Dufour
+ * Defines a direction and some methods used to go from a direction to another.
  * 
- *         Defines a direction and some methods used to go from a direction to another.
+ * @author Charles Dufour
  *
  */
 public enum Direction {

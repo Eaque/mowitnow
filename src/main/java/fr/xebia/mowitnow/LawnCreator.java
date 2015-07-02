@@ -16,11 +16,10 @@ import java.nio.charset.StandardCharsets;
 import fr.xebia.mowitnow.exception.FileContentException;
 
 /**
- * @author Charles Dufour
+ * Class allowing to create a lawn from a stream, a file or a string. The input stream must follow the specification. <br>
+ * This class is the entry point.
  * 
- *         Class allowing to create a lawn from a stream, a file or a string. The input stream must follow the
- *         specification. <br />
- *         This class is the entry point.
+ * @author Charles Dufour
  *
  */
 public final class LawnCreator {
@@ -83,7 +82,7 @@ public final class LawnCreator {
 
     /**
      * Creates a lawn from a string representing the configuration. See
-     * {@link fr.xebia.mowitnow.LawnCreator#createLawn(java.io.InputStream)} <br />
+     * {@link fr.xebia.mowitnow.LawnCreator#createLawn(java.io.InputStream)} <br>
      * The string must be encoded in 'utf-8'
      * 
      * @param configuration
